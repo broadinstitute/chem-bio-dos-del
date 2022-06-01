@@ -1,0 +1,569 @@
+2022-01-20 02:42:31,102 INFO: Loaded config file
+2022-01-20 02:42:31,102 INFO: {'project_dir': '../data/220119_choudhary_DEL_screens_MiSeq', 'datasets': {'0': {'id': 'run029_samp000637', 'fname': ['none-1-screen-1_S1_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '1': {'id': 'run029_samp000638', 'fname': ['none-2-screen-1_S2_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '2': {'id': 'run029_samp000639', 'fname': ['C3-1-screen-1_S3_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '3': {'id': 'run029_samp000640', 'fname': ['C3-2-screen-1_S4_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '4': {'id': 'run029_samp000641', 'fname': ['C5-1-screen-1_S5_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '5': {'id': 'run029_samp000642', 'fname': ['C5-2-screen-1_S6_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '6': {'id': 'run029_samp000643', 'fname': ['CD16b-1-screen-1_S7_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '7': {'id': 'run029_samp000644', 'fname': ['CD16b-2-screen-1_S8_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '8': {'id': 'run029_samp000645', 'fname': ['CD64-1-screen-1_S9_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '9': {'id': 'run029_samp000646', 'fname': ['CD64-2-screen-1_S10_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '10': {'id': 'run029_samp000647', 'fname': ['CD209-1-screen-1_S11_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '11': {'id': 'run029_samp000648', 'fname': ['CD209-2-screen-1_S12_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '12': {'id': 'run029_samp000649', 'fname': ['C3-1-screen-2_S13_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '13': {'id': 'run029_samp000650', 'fname': ['C3-2-screen-2_S14_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '14': {'id': 'run029_samp000651', 'fname': ['C5-1-screen-2_S15_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '15': {'id': 'run029_samp000652', 'fname': ['C5-2-screen-2_S16_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '16': {'id': 'run029_samp000653', 'fname': ['CD16b-1-screen-2_S17_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '17': {'id': 'run029_samp000654', 'fname': ['CD16b-2-screen-2_S18_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '18': {'id': 'run029_samp000655', 'fname': ['CD64-1-screen-2_S19_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '19': {'id': 'run029_samp000656', 'fname': ['CD64-2-screen-2_S20_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '20': {'id': 'run029_samp000657', 'fname': ['CD209-1-screen-2_S21_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '21': {'id': 'run029_samp000658', 'fname': ['CD209-2-screen-2_S22_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '22': {'id': 'run029_samp000659', 'fname': ['none-shu-screen-3_S23_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '23': {'id': 'run029_samp000660', 'fname': ['Fc-shu-screen-3_S24_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '24': {'id': 'run029_samp000661', 'fname': ['Factor-B-shu-screen-3_S25_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '25': {'id': 'run029_samp000662', 'fname': ['none-screen-4_S26_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '26': {'id': 'run029_samp000663', 'fname': ['none-comps-screen-4_S27_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '27': {'id': 'run029_samp000664', 'fname': ['Fc-screen-4_S28_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '28': {'id': 'run029_samp000665', 'fname': ['C3-screen-4_S29_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '29': {'id': 'run029_samp000666', 'fname': ['C5-screen-4_S30_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '30': {'id': 'run029_samp000667', 'fname': ['Factor-B-screen-4_S31_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '31': {'id': 'run029_samp000668', 'fname': ['CD16b-screen-4_S32_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '32': {'id': 'run029_samp000669', 'fname': ['CD64-screen-4_S33_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '33': {'id': 'run029_samp000670', 'fname': ['CD209-screen-4_S34_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '34': {'id': 'run029_samp000671', 'fname': ['none-screen-5_S35_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '35': {'id': 'run029_samp000672', 'fname': ['Fc-screen-5_S36_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '36': {'id': 'run029_samp000673', 'fname': ['Factor-B-screen-5_S37_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}}, 'enrichments': {}, 'metadata': {'library': '../lib_meta.csv', 'encoding': '../bb_meta.csv', 'encoding_enumerated': '../lib_enum_struct.csv', 'library_ids': [2, 4, 5, 6, 7, 100]}, 'settings': {'fuzzy': True, 'umi': 'directional', 'minread': 1, 'seq_slices': [[0, 9], [9, 18], [18, 27], [27, 37], [37, 50]], 'read_subs': {}}, 'save_often': 5, 'outfile': 'save_file', 'reprocess_reads': False, 'reprocess_counts': False, 'reprocess_enrichments': True, 'njobs': 4}
+2022-01-20 02:43:36,211 INFO: Loaded library metadata
+2022-01-20 02:43:36,211 INFO:     10 unique libraries
+2022-01-20 02:43:36,211 INFO:     13282919 unique compounds
+2022-01-20 02:43:37,580 INFO: Cut library metadata to only include IDs [2, 4, 5, 6, 7, 100]
+2022-01-20 02:43:37,580 INFO:     6 unique libraries
+2022-01-20 02:43:37,580 INFO:     10392813 unique compounds
+2022-01-20 02:43:37,949 INFO: Allowed fuzzy matching dists:?
+2022-01-20 02:43:37,949 INFO:     lib: 1
+2022-01-20 02:43:37,949 INFO:     2: {1: 1, 2: 0, 3: 0}
+2022-01-20 02:43:37,949 INFO:     4: {1: 0, 2: 0, 3: 0}
+2022-01-20 02:43:37,949 INFO:     5: {1: 0, 2: 0, 3: 0}
+2022-01-20 02:43:37,949 INFO:     6: {1: 0, 2: 1, 3: 0}
+2022-01-20 02:43:37,950 INFO:     7: {1: 0, 2: 0, 3: 0}
+2022-01-20 02:43:37,950 INFO:     100: {1: 0, 2: 0, 3: 0}
+2022-01-20 02:43:38,753 INFO: Creating copy of enumerated compound list to store results in
+2022-01-20 02:43:38,754 INFO: Saving to save_file.csv...
+2022-01-20 02:45:39,849 INFO: Saved current results DF as csv at save_file.csv
+2022-01-20 02:45:40,475 INFO: Running analysis for experiment 0
+2022-01-20 02:45:40,535 INFO: Preparing to read none-1-screen-1_S1_L001_R1_001.fastq.gz
+2022-01-20 02:45:52,868 INFO: Finished reading none-1-screen-1_S1_L001_R1_001.fastq.gz
+2022-01-20 02:45:55,470 INFO: Saved reads to none-1-screen-1_S1_L001_R1_001.fastq.gz.reads
+2022-01-20 02:45:56,159 INFO:     1055507 unique reads
+2022-01-20 02:45:56,305 INFO:     1090933 total reads
+2022-01-20 02:45:56,319 INFO: Validating reads...
+2022-01-20 02:46:11,238 INFO:     799197 unique barcodes (out of 10392813 possible)
+2022-01-20 02:46:11,501 INFO:     1033283 total reads
+2022-01-20 02:46:11,502 INFO: Using a minimum read cutoff of 1 for run029_samp000637_part1
+2022-01-20 02:46:11,502 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 02:46:16,825 INFO: Final total counts: 997844
+2022-01-20 02:46:16,836 INFO: Processing count data for run029_samp000637_part1
+2022-01-20 02:46:25,340 INFO:     found 799197/10392813 tags (7.69%)
+2022-01-20 03:01:14,039 INFO: Loaded config file
+2022-01-20 03:01:14,039 INFO: {'project_dir': '../data/220119_choudhary_DEL_screens_MiSeq', 'datasets': {'0': {'id': 'run029_samp000637', 'fname': ['none-1-screen-1_S1_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '1': {'id': 'run029_samp000638', 'fname': ['none-2-screen-1_S2_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '2': {'id': 'run029_samp000639', 'fname': ['C3-1-screen-1_S3_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '3': {'id': 'run029_samp000640', 'fname': ['C3-2-screen-1_S4_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '4': {'id': 'run029_samp000641', 'fname': ['C5-1-screen-1_S5_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '5': {'id': 'run029_samp000642', 'fname': ['C5-2-screen-1_S6_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '6': {'id': 'run029_samp000643', 'fname': ['CD16b-1-screen-1_S7_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '7': {'id': 'run029_samp000644', 'fname': ['CD16b-2-screen-1_S8_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '8': {'id': 'run029_samp000645', 'fname': ['CD64-1-screen-1_S9_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '9': {'id': 'run029_samp000646', 'fname': ['CD64-2-screen-1_S10_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '10': {'id': 'run029_samp000647', 'fname': ['CD209-1-screen-1_S11_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '11': {'id': 'run029_samp000648', 'fname': ['CD209-2-screen-1_S12_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '12': {'id': 'run029_samp000649', 'fname': ['C3-1-screen-2_S13_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '13': {'id': 'run029_samp000650', 'fname': ['C3-2-screen-2_S14_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '14': {'id': 'run029_samp000651', 'fname': ['C5-1-screen-2_S15_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '15': {'id': 'run029_samp000652', 'fname': ['C5-2-screen-2_S16_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '16': {'id': 'run029_samp000653', 'fname': ['CD16b-1-screen-2_S17_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '17': {'id': 'run029_samp000654', 'fname': ['CD16b-2-screen-2_S18_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '18': {'id': 'run029_samp000655', 'fname': ['CD64-1-screen-2_S19_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '19': {'id': 'run029_samp000656', 'fname': ['CD64-2-screen-2_S20_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '20': {'id': 'run029_samp000657', 'fname': ['CD209-1-screen-2_S21_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '21': {'id': 'run029_samp000658', 'fname': ['CD209-2-screen-2_S22_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '22': {'id': 'run029_samp000659', 'fname': ['none-shu-screen-3_S23_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '23': {'id': 'run029_samp000660', 'fname': ['Fc-shu-screen-3_S24_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '24': {'id': 'run029_samp000661', 'fname': ['Factor-B-shu-screen-3_S25_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '25': {'id': 'run029_samp000662', 'fname': ['none-screen-4_S26_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '26': {'id': 'run029_samp000663', 'fname': ['none-comps-screen-4_S27_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '27': {'id': 'run029_samp000664', 'fname': ['Fc-screen-4_S28_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '28': {'id': 'run029_samp000665', 'fname': ['C3-screen-4_S29_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '29': {'id': 'run029_samp000666', 'fname': ['C5-screen-4_S30_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '30': {'id': 'run029_samp000667', 'fname': ['Factor-B-screen-4_S31_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '31': {'id': 'run029_samp000668', 'fname': ['CD16b-screen-4_S32_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '32': {'id': 'run029_samp000669', 'fname': ['CD64-screen-4_S33_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '33': {'id': 'run029_samp000670', 'fname': ['CD209-screen-4_S34_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '34': {'id': 'run029_samp000671', 'fname': ['none-screen-5_S35_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '35': {'id': 'run029_samp000672', 'fname': ['Fc-screen-5_S36_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}, '36': {'id': 'run029_samp000673', 'fname': ['Factor-B-screen-5_S37_L001_R1_001.fastq.gz'], 'library_ids': [2, 4, 5, 6, 7, 100]}}, 'enrichments': {}, 'metadata': {'library': '../lib_meta.csv', 'encoding': '../bb_meta.csv', 'encoding_enumerated': '../lib_enum_struct.csv', 'library_ids': [2, 4, 5, 6, 7, 100]}, 'settings': {'fuzzy': True, 'umi': 'directional', 'minread': 1, 'seq_slices': [[0, 9], [9, 18], [18, 27], [27, 37], [37, 50]], 'read_subs': {}}, 'save_often': 5, 'outfile': 'save_file', 'reprocess_reads': False, 'reprocess_counts': False, 'reprocess_enrichments': True, 'njobs': 4}
+2022-01-20 03:02:19,410 INFO: Loaded library metadata
+2022-01-20 03:02:19,410 INFO:     10 unique libraries
+2022-01-20 03:02:19,410 INFO:     13282919 unique compounds
+2022-01-20 03:02:20,802 INFO: Cut library metadata to only include IDs [2, 4, 5, 6, 7, 100]
+2022-01-20 03:02:20,802 INFO:     6 unique libraries
+2022-01-20 03:02:20,803 INFO:     10392813 unique compounds
+2022-01-20 03:02:21,170 INFO: Allowed fuzzy matching dists:?
+2022-01-20 03:02:21,171 INFO:     lib: 1
+2022-01-20 03:02:21,171 INFO:     2: {1: 1, 2: 0, 3: 0}
+2022-01-20 03:02:21,171 INFO:     4: {1: 0, 2: 0, 3: 0}
+2022-01-20 03:02:21,171 INFO:     5: {1: 0, 2: 0, 3: 0}
+2022-01-20 03:02:21,171 INFO:     6: {1: 0, 2: 1, 3: 0}
+2022-01-20 03:02:21,171 INFO:     7: {1: 0, 2: 0, 3: 0}
+2022-01-20 03:02:21,172 INFO:     100: {1: 0, 2: 0, 3: 0}
+2022-01-20 03:03:06,907 INFO: Index(['lib_id', 'cycle1', 'cycle2', 'cycle3', 'cycle1_seq', 'cycle2_seq',
+       'cycle3_seq', 'cycle1_bb', 'cycle2_bb', 'cycle3_bb', 'structure'],
+      dtype='object')
+2022-01-20 03:03:07,457 INFO: Running analysis for experiment 0
+2022-01-20 03:03:07,470 INFO: Found already-processed read file none-1-screen-1_S1_L001_R1_001.fastq.gz.reads
+2022-01-20 03:03:07,490 INFO: Reloading...
+2022-01-20 03:03:08,825 INFO:     1055507 unique reads
+2022-01-20 03:03:08,849 INFO:     1090933 total reads
+2022-01-20 03:03:08,863 INFO: Validating reads...
+2022-01-20 03:03:24,361 INFO:     799197 unique barcodes (out of 10392813 possible)
+2022-01-20 03:03:24,629 INFO:     1033283 total reads
+2022-01-20 03:03:24,629 INFO: Using a minimum read cutoff of 1 for run029_samp000637_part1
+2022-01-20 03:03:24,630 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:03:29,988 INFO: Final total counts: 997844
+2022-01-20 03:03:29,999 INFO: Processing count data for run029_samp000637_part1
+2022-01-20 03:03:38,392 INFO:     found 799197/10392813 tags (7.69%)
+2022-01-20 03:03:49,327 INFO: Running analysis for experiment 1
+2022-01-20 03:03:49,390 INFO: Preparing to read none-2-screen-1_S2_L001_R1_001.fastq.gz
+2022-01-20 03:03:59,711 INFO: Finished reading none-2-screen-1_S2_L001_R1_001.fastq.gz
+2022-01-20 03:04:01,838 INFO: Saved reads to none-2-screen-1_S2_L001_R1_001.fastq.gz.reads
+2022-01-20 03:04:02,541 INFO:     873884 unique reads
+2022-01-20 03:04:02,632 INFO:     897501 total reads
+2022-01-20 03:04:02,645 INFO: Validating reads...
+2022-01-20 03:04:22,216 INFO:     679498 unique barcodes (out of 10392813 possible)
+2022-01-20 03:04:22,463 INFO:     850175 total reads
+2022-01-20 03:04:22,464 INFO: Using a minimum read cutoff of 1 for run029_samp000638_part1
+2022-01-20 03:04:22,464 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:04:27,127 INFO: Final total counts: 826632
+2022-01-20 03:04:27,152 INFO: Processing count data for run029_samp000638_part1
+2022-01-20 03:04:36,083 INFO:     found 679498/10392813 tags (6.54%)
+2022-01-20 03:04:46,827 INFO: Running analysis for experiment 2
+2022-01-20 03:04:46,882 INFO: Preparing to read C3-1-screen-1_S3_L001_R1_001.fastq.gz
+2022-01-20 03:04:54,028 INFO: Finished reading C3-1-screen-1_S3_L001_R1_001.fastq.gz
+2022-01-20 03:04:55,659 INFO: Saved reads to C3-1-screen-1_S3_L001_R1_001.fastq.gz.reads
+2022-01-20 03:04:56,197 INFO:     618304 unique reads
+2022-01-20 03:04:56,259 INFO:     619073 total reads
+2022-01-20 03:04:56,267 INFO: Validating reads...
+2022-01-20 03:05:09,586 INFO:     548687 unique barcodes (out of 10392813 possible)
+2022-01-20 03:05:09,775 INFO:     592277 total reads
+2022-01-20 03:05:09,776 INFO: Using a minimum read cutoff of 1 for run029_samp000639_part1
+2022-01-20 03:05:09,776 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:05:13,275 INFO: Final total counts: 591676
+2022-01-20 03:05:13,296 INFO: Processing count data for run029_samp000639_part1
+2022-01-20 03:05:21,589 INFO:     found 548687/10392813 tags (5.28%)
+2022-01-20 03:05:32,364 INFO: Running analysis for experiment 3
+2022-01-20 03:05:32,409 INFO: Preparing to read C3-2-screen-1_S4_L001_R1_001.fastq.gz
+2022-01-20 03:05:43,543 INFO: Finished reading C3-2-screen-1_S4_L001_R1_001.fastq.gz
+2022-01-20 03:05:45,888 INFO: Saved reads to C3-2-screen-1_S4_L001_R1_001.fastq.gz.reads
+2022-01-20 03:05:46,587 INFO:     974209 unique reads
+2022-01-20 03:05:46,707 INFO:     975680 total reads
+2022-01-20 03:05:46,720 INFO: Validating reads...
+2022-01-20 03:06:10,691 INFO:     832518 unique barcodes (out of 10392813 possible)
+2022-01-20 03:06:10,975 INFO:     933991 total reads
+2022-01-20 03:06:10,975 INFO: Using a minimum read cutoff of 1 for run029_samp000640_part1
+2022-01-20 03:06:10,975 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:06:16,331 INFO: Final total counts: 932803
+2022-01-20 03:06:16,354 INFO: Processing count data for run029_samp000640_part1
+2022-01-20 03:06:24,877 INFO:     found 832518/10392813 tags (8.01%)
+2022-01-20 03:06:35,906 INFO: Running analysis for experiment 4
+2022-01-20 03:06:35,959 INFO: Preparing to read C5-1-screen-1_S5_L001_R1_001.fastq.gz
+2022-01-20 03:06:48,159 INFO: Finished reading C5-1-screen-1_S5_L001_R1_001.fastq.gz
+2022-01-20 03:06:50,610 INFO: Saved reads to C5-1-screen-1_S5_L001_R1_001.fastq.gz.reads
+2022-01-20 03:06:51,356 INFO:     992951 unique reads
+2022-01-20 03:06:51,466 INFO:     1020932 total reads
+2022-01-20 03:06:51,479 INFO: Validating reads...
+2022-01-20 03:07:25,811 INFO:     827184 unique barcodes (out of 10392813 possible)
+2022-01-20 03:07:26,095 INFO:     976113 total reads
+2022-01-20 03:07:26,095 INFO: Using a minimum read cutoff of 1 for run029_samp000641_part1
+2022-01-20 03:07:26,096 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:07:31,432 INFO: Final total counts: 947936
+2022-01-20 03:07:31,461 INFO: Processing count data for run029_samp000641_part1
+2022-01-20 03:07:40,186 INFO:     found 827184/10392813 tags (7.96%)
+2022-01-20 03:07:51,107 INFO: Running analysis for experiment 5
+2022-01-20 03:07:51,157 INFO: Preparing to read C5-2-screen-1_S6_L001_R1_001.fastq.gz
+2022-01-20 03:07:59,873 INFO: Finished reading C5-2-screen-1_S6_L001_R1_001.fastq.gz
+2022-01-20 03:08:01,541 INFO: Saved reads to C5-2-screen-1_S6_L001_R1_001.fastq.gz.reads
+2022-01-20 03:08:02,196 INFO:     728623 unique reads
+2022-01-20 03:08:02,276 INFO:     744242 total reads
+2022-01-20 03:08:02,286 INFO: Validating reads...
+2022-01-20 03:08:28,576 INFO:     626423 unique barcodes (out of 10392813 possible)
+2022-01-20 03:08:28,786 INFO:     711262 total reads
+2022-01-20 03:08:28,786 INFO: Using a minimum read cutoff of 1 for run029_samp000642_part1
+2022-01-20 03:08:28,786 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:08:32,795 INFO: Final total counts: 695528
+2022-01-20 03:08:32,820 INFO: Processing count data for run029_samp000642_part1
+2022-01-20 03:08:41,625 INFO:     found 626423/10392813 tags (6.03%)
+2022-01-20 03:08:52,340 INFO: Running analysis for experiment 6
+2022-01-20 03:08:52,385 INFO: Preparing to read CD16b-1-screen-1_S7_L001_R1_001.fastq.gz
+2022-01-20 03:08:59,416 INFO: Finished reading CD16b-1-screen-1_S7_L001_R1_001.fastq.gz
+2022-01-20 03:09:00,711 INFO: Saved reads to CD16b-1-screen-1_S7_L001_R1_001.fastq.gz.reads
+2022-01-20 03:09:01,156 INFO:     492602 unique reads
+2022-01-20 03:09:01,221 INFO:     607858 total reads
+2022-01-20 03:09:01,227 INFO: Validating reads...
+2022-01-20 03:09:21,552 INFO:     435516 unique barcodes (out of 10392813 possible)
+2022-01-20 03:09:21,701 INFO:     579200 total reads
+2022-01-20 03:09:21,702 INFO: Using a minimum read cutoff of 1 for run029_samp000643_part1
+2022-01-20 03:09:21,702 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:09:24,451 INFO: Final total counts: 462577
+2022-01-20 03:09:24,469 INFO: Processing count data for run029_samp000643_part1
+2022-01-20 03:09:32,300 INFO:     found 435516/10392813 tags (4.19%)
+2022-01-20 03:09:42,876 INFO: Running analysis for experiment 7
+2022-01-20 03:09:42,926 INFO: Preparing to read CD16b-2-screen-1_S8_L001_R1_001.fastq.gz
+2022-01-20 03:09:51,274 INFO: Finished reading CD16b-2-screen-1_S8_L001_R1_001.fastq.gz
+2022-01-20 03:09:52,584 INFO: Saved reads to CD16b-2-screen-1_S8_L001_R1_001.fastq.gz.reads
+2022-01-20 03:09:53,065 INFO:     594343 unique reads
+2022-01-20 03:09:53,139 INFO:     730921 total reads
+2022-01-20 03:09:53,147 INFO: Validating reads...
+2022-01-20 03:10:21,122 INFO:     517036 unique barcodes (out of 10392813 possible)
+2022-01-20 03:10:21,299 INFO:     695767 total reads
+2022-01-20 03:10:21,299 INFO: Using a minimum read cutoff of 1 for run029_samp000644_part1
+2022-01-20 03:10:21,300 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:10:24,550 INFO: Final total counts: 557538
+2022-01-20 03:10:24,565 INFO: Processing count data for run029_samp000644_part1
+2022-01-20 03:10:32,501 INFO:     found 517036/10392813 tags (4.97%)
+2022-01-20 03:10:43,626 INFO: Running analysis for experiment 8
+2022-01-20 03:10:43,678 INFO: Preparing to read CD64-1-screen-1_S9_L001_R1_001.fastq.gz
+2022-01-20 03:10:53,413 INFO: Finished reading CD64-1-screen-1_S9_L001_R1_001.fastq.gz
+2022-01-20 03:10:55,437 INFO: Saved reads to CD64-1-screen-1_S9_L001_R1_001.fastq.gz.reads
+2022-01-20 03:10:56,405 INFO:     844928 unique reads
+2022-01-20 03:10:56,506 INFO:     847472 total reads
+2022-01-20 03:10:56,517 INFO: Validating reads...
+2022-01-20 03:11:24,571 INFO:     735947 unique barcodes (out of 10392813 possible)
+2022-01-20 03:11:24,817 INFO:     808597 total reads
+2022-01-20 03:11:24,817 INFO: Using a minimum read cutoff of 1 for run029_samp000645_part1
+2022-01-20 03:11:24,818 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:11:29,658 INFO: Final total counts: 806391
+2022-01-20 03:11:29,679 INFO: Processing count data for run029_samp000645_part1
+2022-01-20 03:11:38,022 INFO:     found 735947/10392813 tags (7.08%)
+2022-01-20 03:11:48,805 INFO: Running analysis for experiment 9
+2022-01-20 03:11:48,851 INFO: Preparing to read CD64-2-screen-1_S10_L001_R1_001.fastq.gz
+2022-01-20 03:11:56,371 INFO: Finished reading CD64-2-screen-1_S10_L001_R1_001.fastq.gz
+2022-01-20 03:11:57,998 INFO: Saved reads to CD64-2-screen-1_S10_L001_R1_001.fastq.gz.reads
+2022-01-20 03:11:58,849 INFO:     626237 unique reads
+2022-01-20 03:11:58,917 INFO:     627582 total reads
+2022-01-20 03:11:58,926 INFO: Validating reads...
+2022-01-20 03:12:22,785 INFO:     558033 unique barcodes (out of 10392813 possible)
+2022-01-20 03:12:22,985 INFO:     598254 total reads
+2022-01-20 03:12:22,986 INFO: Using a minimum read cutoff of 1 for run029_samp000646_part1
+2022-01-20 03:12:22,986 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:12:26,555 INFO: Final total counts: 597114
+2022-01-20 03:12:26,577 INFO: Processing count data for run029_samp000646_part1
+2022-01-20 03:12:34,615 INFO:     found 558033/10392813 tags (5.37%)
+2022-01-20 03:12:45,404 INFO: Running analysis for experiment 10
+2022-01-20 03:12:45,450 INFO: Preparing to read CD209-1-screen-1_S11_L001_R1_001.fastq.gz
+2022-01-20 03:12:56,515 INFO: Finished reading CD209-1-screen-1_S11_L001_R1_001.fastq.gz
+2022-01-20 03:12:58,729 INFO: Saved reads to CD209-1-screen-1_S11_L001_R1_001.fastq.gz.reads
+2022-01-20 03:12:59,393 INFO:     884635 unique reads
+2022-01-20 03:12:59,499 INFO:     956405 total reads
+2022-01-20 03:12:59,511 INFO: Validating reads...
+2022-01-20 03:13:41,958 INFO:     676816 unique barcodes (out of 10392813 possible)
+2022-01-20 03:13:42,199 INFO:     904111 total reads
+2022-01-20 03:13:42,199 INFO: Using a minimum read cutoff of 1 for run029_samp000647_part1
+2022-01-20 03:13:42,199 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:13:46,801 INFO: Final total counts: 832240
+2022-01-20 03:13:46,821 INFO: Processing count data for run029_samp000647_part1
+2022-01-20 03:13:55,157 INFO:     found 676816/10392813 tags (6.51%)
+2022-01-20 03:14:05,938 INFO: Running analysis for experiment 11
+2022-01-20 03:14:05,982 INFO: Preparing to read CD209-2-screen-1_S12_L001_R1_001.fastq.gz
+2022-01-20 03:14:13,820 INFO: Finished reading CD209-2-screen-1_S12_L001_R1_001.fastq.gz
+2022-01-20 03:14:15,388 INFO: Saved reads to CD209-2-screen-1_S12_L001_R1_001.fastq.gz.reads
+2022-01-20 03:14:15,919 INFO:     640678 unique reads
+2022-01-20 03:14:15,985 INFO:     686170 total reads
+2022-01-20 03:14:15,994 INFO: Validating reads...
+2022-01-20 03:14:47,682 INFO:     525369 unique barcodes (out of 10392813 possible)
+2022-01-20 03:14:47,864 INFO:     650197 total reads
+2022-01-20 03:14:47,865 INFO: Using a minimum read cutoff of 1 for run029_samp000648_part1
+2022-01-20 03:14:47,865 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:14:51,468 INFO: Final total counts: 604507
+2022-01-20 03:14:51,489 INFO: Processing count data for run029_samp000648_part1
+2022-01-20 03:14:59,920 INFO:     found 525369/10392813 tags (5.06%)
+2022-01-20 03:15:11,134 INFO: Running analysis for experiment 12
+2022-01-20 03:15:11,193 INFO: Preparing to read C3-1-screen-2_S13_L001_R1_001.fastq.gz
+2022-01-20 03:15:22,108 INFO: Finished reading C3-1-screen-2_S13_L001_R1_001.fastq.gz
+2022-01-20 03:15:24,256 INFO: Saved reads to C3-1-screen-2_S13_L001_R1_001.fastq.gz.reads
+2022-01-20 03:15:25,087 INFO:     947022 unique reads
+2022-01-20 03:15:25,173 INFO:     948551 total reads
+2022-01-20 03:15:25,186 INFO: Validating reads...
+2022-01-20 03:16:00,096 INFO:     815377 unique barcodes (out of 10392813 possible)
+2022-01-20 03:16:00,372 INFO:     907477 total reads
+2022-01-20 03:16:00,372 INFO: Using a minimum read cutoff of 1 for run029_samp000649_part1
+2022-01-20 03:16:00,373 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:16:05,777 INFO: Final total counts: 906205
+2022-01-20 03:16:05,798 INFO: Processing count data for run029_samp000649_part1
+2022-01-20 03:16:14,362 INFO:     found 815377/10392813 tags (7.85%)
+2022-01-20 03:16:25,346 INFO: Running analysis for experiment 13
+2022-01-20 03:16:25,404 INFO: Preparing to read C3-2-screen-2_S14_L001_R1_001.fastq.gz
+2022-01-20 03:16:37,561 INFO: Finished reading C3-2-screen-2_S14_L001_R1_001.fastq.gz
+2022-01-20 03:16:39,850 INFO: Saved reads to C3-2-screen-2_S14_L001_R1_001.fastq.gz.reads
+2022-01-20 03:16:40,931 INFO:     1061165 unique reads
+2022-01-20 03:16:41,049 INFO:     1063002 total reads
+2022-01-20 03:16:41,064 INFO: Validating reads...
+2022-01-20 03:17:18,607 INFO:     903681 unique barcodes (out of 10392813 possible)
+2022-01-20 03:17:18,911 INFO:     1017142 total reads
+2022-01-20 03:17:18,912 INFO: Using a minimum read cutoff of 1 for run029_samp000650_part1
+2022-01-20 03:17:18,912 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:17:24,709 INFO: Final total counts: 1015614
+2022-01-20 03:17:24,739 INFO: Processing count data for run029_samp000650_part1
+2022-01-20 03:17:33,434 INFO:     found 903681/10392813 tags (8.70%)
+2022-01-20 03:17:44,652 INFO: Running analysis for experiment 14
+2022-01-20 03:17:44,700 INFO: Preparing to read C5-1-screen-2_S15_L001_R1_001.fastq.gz
+2022-01-20 03:17:54,260 INFO: Finished reading C5-1-screen-2_S15_L001_R1_001.fastq.gz
+2022-01-20 03:17:56,088 INFO: Saved reads to C5-1-screen-2_S15_L001_R1_001.fastq.gz.reads
+2022-01-20 03:17:56,728 INFO:     801710 unique reads
+2022-01-20 03:17:56,818 INFO:     832483 total reads
+2022-01-20 03:17:56,829 INFO: Validating reads...
+2022-01-20 03:18:40,004 INFO:     677879 unique barcodes (out of 10392813 possible)
+2022-01-20 03:18:40,247 INFO:     793076 total reads
+2022-01-20 03:18:40,248 INFO: Using a minimum read cutoff of 1 for run029_samp000651_part1
+2022-01-20 03:18:40,248 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:18:44,582 INFO: Final total counts: 762137
+2022-01-20 03:18:44,611 INFO: Processing count data for run029_samp000651_part1
+2022-01-20 03:18:52,999 INFO:     found 677879/10392813 tags (6.52%)
+2022-01-20 03:19:03,919 INFO: Running analysis for experiment 15
+2022-01-20 03:19:03,978 INFO: Preparing to read C5-2-screen-2_S16_L001_R1_001.fastq.gz
+2022-01-20 03:19:10,590 INFO: Finished reading C5-2-screen-2_S16_L001_R1_001.fastq.gz
+2022-01-20 03:19:12,030 INFO: Saved reads to C5-2-screen-2_S16_L001_R1_001.fastq.gz.reads
+2022-01-20 03:19:12,864 INFO:     557280 unique reads
+2022-01-20 03:19:12,922 INFO:     572377 total reads
+2022-01-20 03:19:12,929 INFO: Validating reads...
+2022-01-20 03:19:41,873 INFO:     478981 unique barcodes (out of 10392813 possible)
+2022-01-20 03:19:42,056 INFO:     544310 total reads
+2022-01-20 03:19:42,056 INFO: Using a minimum read cutoff of 1 for run029_samp000652_part1
+2022-01-20 03:19:42,056 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:19:45,140 INFO: Final total counts: 529160
+2022-01-20 03:19:45,160 INFO: Processing count data for run029_samp000652_part1
+2022-01-20 03:19:53,090 INFO:     found 478981/10392813 tags (4.61%)
+2022-01-20 03:20:03,960 INFO: Running analysis for experiment 16
+2022-01-20 03:20:04,019 INFO: Preparing to read CD16b-1-screen-2_S17_L001_R1_001.fastq.gz
+2022-01-20 03:20:10,484 INFO: Finished reading CD16b-1-screen-2_S17_L001_R1_001.fastq.gz
+2022-01-20 03:20:11,640 INFO: Saved reads to CD16b-1-screen-2_S17_L001_R1_001.fastq.gz.reads
+2022-01-20 03:20:12,080 INFO:     467689 unique reads
+2022-01-20 03:20:12,139 INFO:     555278 total reads
+2022-01-20 03:20:12,145 INFO: Validating reads...
+2022-01-20 03:20:38,963 INFO:     415312 unique barcodes (out of 10392813 possible)
+2022-01-20 03:20:39,111 INFO:     528908 total reads
+2022-01-20 03:20:39,111 INFO: Using a minimum read cutoff of 1 for run029_samp000653_part1
+2022-01-20 03:20:39,111 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:20:41,698 INFO: Final total counts: 440560
+2022-01-20 03:20:41,714 INFO: Processing count data for run029_samp000653_part1
+2022-01-20 03:20:49,634 INFO:     found 415312/10392813 tags (4.00%)
+2022-01-20 03:21:00,667 INFO: Running analysis for experiment 17
+2022-01-20 03:21:00,709 INFO: Preparing to read CD16b-2-screen-2_S18_L001_R1_001.fastq.gz
+2022-01-20 03:21:07,131 INFO: Finished reading CD16b-2-screen-2_S18_L001_R1_001.fastq.gz
+2022-01-20 03:21:08,385 INFO: Saved reads to CD16b-2-screen-2_S18_L001_R1_001.fastq.gz.reads
+2022-01-20 03:21:08,830 INFO:     468887 unique reads
+2022-01-20 03:21:08,883 INFO:     556108 total reads
+2022-01-20 03:21:08,889 INFO: Validating reads...
+2022-01-20 03:21:34,177 INFO:     419854 unique barcodes (out of 10392813 possible)
+2022-01-20 03:21:34,324 INFO:     529871 total reads
+2022-01-20 03:21:34,325 INFO: Using a minimum read cutoff of 1 for run029_samp000654_part1
+2022-01-20 03:21:34,325 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:21:37,191 INFO: Final total counts: 441951
+2022-01-20 03:21:37,206 INFO: Processing count data for run029_samp000654_part1
+2022-01-20 03:21:44,965 INFO:     found 419854/10392813 tags (4.04%)
+2022-01-20 03:21:55,852 INFO: Running analysis for experiment 18
+2022-01-20 03:21:55,901 INFO: Preparing to read CD64-1-screen-2_S19_L001_R1_001.fastq.gz
+2022-01-20 03:22:03,745 INFO: Finished reading CD64-1-screen-2_S19_L001_R1_001.fastq.gz
+2022-01-20 03:22:05,482 INFO: Saved reads to CD64-1-screen-2_S19_L001_R1_001.fastq.gz.reads
+2022-01-20 03:22:06,036 INFO:     686726 unique reads
+2022-01-20 03:22:06,123 INFO:     688535 total reads
+2022-01-20 03:22:06,133 INFO: Validating reads...
+2022-01-20 03:22:33,395 INFO:     609179 unique barcodes (out of 10392813 possible)
+2022-01-20 03:22:33,616 INFO:     657481 total reads
+2022-01-20 03:22:33,616 INFO: Using a minimum read cutoff of 1 for run029_samp000655_part1
+2022-01-20 03:22:33,616 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:22:37,511 INFO: Final total counts: 655923
+2022-01-20 03:22:37,528 INFO: Processing count data for run029_samp000655_part1
+2022-01-20 03:22:45,682 INFO:     found 609179/10392813 tags (5.86%)
+2022-01-20 03:22:56,859 INFO: Running analysis for experiment 19
+2022-01-20 03:22:56,926 INFO: Preparing to read CD64-2-screen-2_S20_L001_R1_001.fastq.gz
+2022-01-20 03:23:04,287 INFO: Finished reading CD64-2-screen-2_S20_L001_R1_001.fastq.gz
+2022-01-20 03:23:05,957 INFO: Saved reads to CD64-2-screen-2_S20_L001_R1_001.fastq.gz.reads
+2022-01-20 03:23:06,928 INFO:     637240 unique reads
+2022-01-20 03:23:07,001 INFO:     638733 total reads
+2022-01-20 03:23:07,010 INFO: Validating reads...
+2022-01-20 03:23:32,845 INFO:     568574 unique barcodes (out of 10392813 possible)
+2022-01-20 03:23:33,047 INFO:     609360 total reads
+2022-01-20 03:23:33,047 INFO: Using a minimum read cutoff of 1 for run029_samp000656_part1
+2022-01-20 03:23:33,047 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:23:36,851 INFO: Final total counts: 608107
+2022-01-20 03:23:36,871 INFO: Processing count data for run029_samp000656_part1
+2022-01-20 03:23:44,837 INFO:     found 568574/10392813 tags (5.47%)
+2022-01-20 03:23:55,661 INFO: Running analysis for experiment 20
+2022-01-20 03:23:55,708 INFO: Preparing to read CD209-1-screen-2_S21_L001_R1_001.fastq.gz
+2022-01-20 03:24:02,658 INFO: Finished reading CD209-1-screen-2_S21_L001_R1_001.fastq.gz
+2022-01-20 03:24:04,050 INFO: Saved reads to CD209-1-screen-2_S21_L001_R1_001.fastq.gz.reads
+2022-01-20 03:24:04,553 INFO:     580586 unique reads
+2022-01-20 03:24:04,616 INFO:     607501 total reads
+2022-01-20 03:24:04,624 INFO: Validating reads...
+2022-01-20 03:24:34,981 INFO:     479052 unique barcodes (out of 10392813 possible)
+2022-01-20 03:24:35,158 INFO:     575509 total reads
+2022-01-20 03:24:35,159 INFO: Using a minimum read cutoff of 1 for run029_samp000657_part1
+2022-01-20 03:24:35,159 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:24:38,402 INFO: Final total counts: 548530
+2022-01-20 03:24:38,420 INFO: Processing count data for run029_samp000657_part1
+2022-01-20 03:24:46,497 INFO:     found 479052/10392813 tags (4.61%)
+2022-01-20 03:24:57,511 INFO: Running analysis for experiment 21
+2022-01-20 03:24:57,560 INFO: Preparing to read CD209-2-screen-2_S22_L001_R1_001.fastq.gz
+2022-01-20 03:25:05,132 INFO: Finished reading CD209-2-screen-2_S22_L001_R1_001.fastq.gz
+2022-01-20 03:25:06,694 INFO: Saved reads to CD209-2-screen-2_S22_L001_R1_001.fastq.gz.reads
+2022-01-20 03:25:07,169 INFO:     633967 unique reads
+2022-01-20 03:25:07,242 INFO:     671203 total reads
+2022-01-20 03:25:07,251 INFO: Validating reads...
+2022-01-20 03:25:41,717 INFO:     515871 unique barcodes (out of 10392813 possible)
+2022-01-20 03:25:41,902 INFO:     635669 total reads
+2022-01-20 03:25:41,902 INFO: Using a minimum read cutoff of 1 for run029_samp000658_part1
+2022-01-20 03:25:41,902 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:25:45,363 INFO: Final total counts: 598408
+2022-01-20 03:25:45,380 INFO: Processing count data for run029_samp000658_part1
+2022-01-20 03:25:53,459 INFO:     found 515871/10392813 tags (4.96%)
+2022-01-20 03:26:04,397 INFO: Running analysis for experiment 22
+2022-01-20 03:26:04,467 INFO: Preparing to read none-shu-screen-3_S23_L001_R1_001.fastq.gz
+2022-01-20 03:26:10,804 INFO: Finished reading none-shu-screen-3_S23_L001_R1_001.fastq.gz
+2022-01-20 03:26:12,083 INFO: Saved reads to none-shu-screen-3_S23_L001_R1_001.fastq.gz.reads
+2022-01-20 03:26:13,047 INFO:     554155 unique reads
+2022-01-20 03:26:13,105 INFO:     558361 total reads
+2022-01-20 03:26:13,112 INFO: Validating reads...
+2022-01-20 03:26:41,833 INFO:     493183 unique barcodes (out of 10392813 possible)
+2022-01-20 03:26:42,014 INFO:     530747 total reads
+2022-01-20 03:26:42,014 INFO: Using a minimum read cutoff of 1 for run029_samp000659_part1
+2022-01-20 03:26:42,015 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:26:45,105 INFO: Final total counts: 526680
+2022-01-20 03:26:45,122 INFO: Processing count data for run029_samp000659_part1
+2022-01-20 03:26:53,128 INFO:     found 493183/10392813 tags (4.75%)
+2022-01-20 03:27:04,031 INFO: Running analysis for experiment 23
+2022-01-20 03:27:04,087 INFO: Preparing to read Fc-shu-screen-3_S24_L001_R1_001.fastq.gz
+2022-01-20 03:27:09,099 INFO: Finished reading Fc-shu-screen-3_S24_L001_R1_001.fastq.gz
+2022-01-20 03:27:10,234 INFO: Saved reads to Fc-shu-screen-3_S24_L001_R1_001.fastq.gz.reads
+2022-01-20 03:27:10,689 INFO:     429578 unique reads
+2022-01-20 03:27:10,736 INFO:     433321 total reads
+2022-01-20 03:27:10,742 INFO: Validating reads...
+2022-01-20 03:27:29,760 INFO:     390803 unique barcodes (out of 10392813 possible)
+2022-01-20 03:27:29,900 INFO:     414260 total reads
+2022-01-20 03:27:29,900 INFO: Using a minimum read cutoff of 1 for run029_samp000660_part1
+2022-01-20 03:27:29,900 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:27:32,325 INFO: Final total counts: 410587
+2022-01-20 03:27:32,340 INFO: Processing count data for run029_samp000660_part1
+2022-01-20 03:27:40,142 INFO:     found 390803/10392813 tags (3.76%)
+2022-01-20 03:27:50,958 INFO: Running analysis for experiment 24
+2022-01-20 03:27:51,012 INFO: Preparing to read Factor-B-shu-screen-3_S25_L001_R1_001.fastq.gz
+2022-01-20 03:27:56,880 INFO: Finished reading Factor-B-shu-screen-3_S25_L001_R1_001.fastq.gz
+2022-01-20 03:27:58,171 INFO: Saved reads to Factor-B-shu-screen-3_S25_L001_R1_001.fastq.gz.reads
+2022-01-20 03:27:58,660 INFO:     499779 unique reads
+2022-01-20 03:27:58,715 INFO:     502818 total reads
+2022-01-20 03:27:58,723 INFO: Validating reads...
+2022-01-20 03:28:23,454 INFO:     449018 unique barcodes (out of 10392813 possible)
+2022-01-20 03:28:23,616 INFO:     479427 total reads
+2022-01-20 03:28:23,616 INFO: Using a minimum read cutoff of 1 for run029_samp000661_part1
+2022-01-20 03:28:23,616 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:28:26,410 INFO: Final total counts: 476455
+2022-01-20 03:28:26,423 INFO: Processing count data for run029_samp000661_part1
+2022-01-20 03:28:34,484 INFO:     found 449018/10392813 tags (4.32%)
+2022-01-20 03:28:45,845 INFO: Running analysis for experiment 25
+2022-01-20 03:28:45,909 INFO: Preparing to read none-screen-4_S26_L001_R1_001.fastq.gz
+2022-01-20 03:28:53,779 INFO: Finished reading none-screen-4_S26_L001_R1_001.fastq.gz
+2022-01-20 03:28:55,503 INFO: Saved reads to none-screen-4_S26_L001_R1_001.fastq.gz.reads
+2022-01-20 03:28:56,410 INFO:     669089 unique reads
+2022-01-20 03:28:56,487 INFO:     684243 total reads
+2022-01-20 03:28:56,496 INFO: Validating reads...
+2022-01-20 03:29:32,513 INFO:     532418 unique barcodes (out of 10392813 possible)
+2022-01-20 03:29:32,712 INFO:     646230 total reads
+2022-01-20 03:29:32,713 INFO: Using a minimum read cutoff of 1 for run029_samp000662_part1
+2022-01-20 03:29:32,713 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:29:36,209 INFO: Final total counts: 631064
+2022-01-20 03:29:36,225 INFO: Processing count data for run029_samp000662_part1
+2022-01-20 03:29:44,235 INFO:     found 532418/10392813 tags (5.12%)
+2022-01-20 03:29:55,749 INFO: Running analysis for experiment 26
+2022-01-20 03:29:55,796 INFO: Preparing to read none-comps-screen-4_S27_L001_R1_001.fastq.gz
+2022-01-20 03:30:04,656 INFO: Finished reading none-comps-screen-4_S27_L001_R1_001.fastq.gz
+2022-01-20 03:30:06,551 INFO: Saved reads to none-comps-screen-4_S27_L001_R1_001.fastq.gz.reads
+2022-01-20 03:30:07,351 INFO:     756922 unique reads
+2022-01-20 03:30:07,435 INFO:     773748 total reads
+2022-01-20 03:30:07,445 INFO: Validating reads...
+2022-01-20 03:30:48,235 INFO:     601112 unique barcodes (out of 10392813 possible)
+2022-01-20 03:30:48,463 INFO:     730964 total reads
+2022-01-20 03:30:48,463 INFO: Using a minimum read cutoff of 1 for run029_samp000663_part1
+2022-01-20 03:30:48,463 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:30:52,574 INFO: Final total counts: 714094
+2022-01-20 03:30:52,593 INFO: Processing count data for run029_samp000663_part1
+2022-01-20 03:31:00,896 INFO:     found 601112/10392813 tags (5.78%)
+2022-01-20 03:31:12,080 INFO: Running analysis for experiment 27
+2022-01-20 03:31:12,132 INFO: Preparing to read Fc-screen-4_S28_L001_R1_001.fastq.gz
+2022-01-20 03:31:16,634 INFO: Finished reading Fc-screen-4_S28_L001_R1_001.fastq.gz
+2022-01-20 03:31:17,787 INFO: Saved reads to Fc-screen-4_S28_L001_R1_001.fastq.gz.reads
+2022-01-20 03:31:18,185 INFO:     383277 unique reads
+2022-01-20 03:31:18,226 INFO:     390739 total reads
+2022-01-20 03:31:18,232 INFO: Validating reads...
+2022-01-20 03:31:34,249 INFO:     350016 unique barcodes (out of 10392813 possible)
+2022-01-20 03:31:34,377 INFO:     373097 total reads
+2022-01-20 03:31:34,377 INFO: Using a minimum read cutoff of 1 for run029_samp000664_part1
+2022-01-20 03:31:34,377 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:31:36,603 INFO: Final total counts: 365579
+2022-01-20 03:31:36,620 INFO: Processing count data for run029_samp000664_part1
+2022-01-20 03:31:44,293 INFO:     found 350016/10392813 tags (3.37%)
+2022-01-20 03:31:55,209 INFO: Running analysis for experiment 28
+2022-01-20 03:31:55,273 INFO: Preparing to read C3-screen-4_S29_L001_R1_001.fastq.gz
+2022-01-20 03:32:04,809 INFO: Finished reading C3-screen-4_S29_L001_R1_001.fastq.gz
+2022-01-20 03:32:06,612 INFO: Saved reads to C3-screen-4_S29_L001_R1_001.fastq.gz.reads
+2022-01-20 03:32:07,316 INFO:     829430 unique reads
+2022-01-20 03:32:07,419 INFO:     830498 total reads
+2022-01-20 03:32:07,430 INFO: Validating reads...
+2022-01-20 03:32:37,606 INFO:     714930 unique barcodes (out of 10392813 possible)
+2022-01-20 03:32:37,871 INFO:     795550 total reads
+2022-01-20 03:32:37,872 INFO: Using a minimum read cutoff of 1 for run029_samp000665_part1
+2022-01-20 03:32:37,872 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:32:42,477 INFO: Final total counts: 794750
+2022-01-20 03:32:42,494 INFO: Processing count data for run029_samp000665_part1
+2022-01-20 03:32:50,609 INFO:     found 714930/10392813 tags (6.88%)
+2022-01-20 03:33:01,354 INFO: Running analysis for experiment 29
+2022-01-20 03:33:01,400 INFO: Preparing to read C5-screen-4_S30_L001_R1_001.fastq.gz
+2022-01-20 03:33:07,250 INFO: Finished reading C5-screen-4_S30_L001_R1_001.fastq.gz
+2022-01-20 03:33:08,449 INFO: Saved reads to C5-screen-4_S30_L001_R1_001.fastq.gz.reads
+2022-01-20 03:33:08,912 INFO:     510444 unique reads
+2022-01-20 03:33:08,963 INFO:     514169 total reads
+2022-01-20 03:33:08,970 INFO: Validating reads...
+2022-01-20 03:33:36,066 INFO:     448089 unique barcodes (out of 10392813 possible)
+2022-01-20 03:33:36,232 INFO:     490901 total reads
+2022-01-20 03:33:36,233 INFO: Using a minimum read cutoff of 1 for run029_samp000666_part1
+2022-01-20 03:33:36,233 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:33:39,043 INFO: Final total counts: 487230
+2022-01-20 03:33:39,064 INFO: Processing count data for run029_samp000666_part1
+2022-01-20 03:33:46,788 INFO:     found 448089/10392813 tags (4.31%)
+2022-01-20 03:33:57,733 INFO: Running analysis for experiment 30
+2022-01-20 03:33:57,784 INFO: Preparing to read Factor-B-screen-4_S31_L001_R1_001.fastq.gz
+2022-01-20 03:34:07,086 INFO: Finished reading Factor-B-screen-4_S31_L001_R1_001.fastq.gz
+2022-01-20 03:34:08,937 INFO: Saved reads to Factor-B-screen-4_S31_L001_R1_001.fastq.gz.reads
+2022-01-20 03:34:09,591 INFO:     808738 unique reads
+2022-01-20 03:34:09,688 INFO:     811598 total reads
+2022-01-20 03:34:09,699 INFO: Validating reads...
+2022-01-20 03:34:46,437 INFO:     708501 unique barcodes (out of 10392813 possible)
+2022-01-20 03:34:46,697 INFO:     775396 total reads
+2022-01-20 03:34:46,697 INFO: Using a minimum read cutoff of 1 for run029_samp000667_part1
+2022-01-20 03:34:46,697 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:34:51,168 INFO: Final total counts: 772836
+2022-01-20 03:34:51,186 INFO: Processing count data for run029_samp000667_part1
+2022-01-20 03:34:59,675 INFO:     found 708501/10392813 tags (6.82%)
+2022-01-20 03:35:10,542 INFO: Running analysis for experiment 31
+2022-01-20 03:35:10,602 INFO: Preparing to read CD16b-screen-4_S32_L001_R1_001.fastq.gz
+2022-01-20 03:35:14,531 INFO: Finished reading CD16b-screen-4_S32_L001_R1_001.fastq.gz
+2022-01-20 03:35:15,375 INFO: Saved reads to CD16b-screen-4_S32_L001_R1_001.fastq.gz.reads
+2022-01-20 03:35:15,817 INFO:     319616 unique reads
+2022-01-20 03:35:15,844 INFO:     340208 total reads
+2022-01-20 03:35:15,848 INFO: Validating reads...
+2022-01-20 03:35:38,955 INFO:     287479 unique barcodes (out of 10392813 possible)
+2022-01-20 03:35:39,061 INFO:     321749 total reads
+2022-01-20 03:35:39,062 INFO: Using a minimum read cutoff of 1 for run029_samp000668_part1
+2022-01-20 03:35:39,062 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:35:40,839 INFO: Final total counts: 300958
+2022-01-20 03:35:40,859 INFO: Processing count data for run029_samp000668_part1
+2022-01-20 03:35:48,446 INFO:     found 287479/10392813 tags (2.77%)
+2022-01-20 03:35:59,374 INFO: Running analysis for experiment 32
+2022-01-20 03:35:59,414 INFO: Preparing to read CD64-screen-4_S33_L001_R1_001.fastq.gz
+2022-01-20 03:36:06,222 INFO: Finished reading CD64-screen-4_S33_L001_R1_001.fastq.gz
+2022-01-20 03:36:07,608 INFO: Saved reads to CD64-screen-4_S33_L001_R1_001.fastq.gz.reads
+2022-01-20 03:36:08,069 INFO:     588000 unique reads
+2022-01-20 03:36:08,142 INFO:     589482 total reads
+2022-01-20 03:36:08,150 INFO: Validating reads...
+2022-01-20 03:36:33,322 INFO:     524819 unique barcodes (out of 10392813 possible)
+2022-01-20 03:36:33,521 INFO:     562050 total reads
+2022-01-20 03:36:33,521 INFO: Using a minimum read cutoff of 1 for run029_samp000669_part1
+2022-01-20 03:36:33,521 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:36:36,831 INFO: Final total counts: 560831
+2022-01-20 03:36:36,844 INFO: Processing count data for run029_samp000669_part1
+2022-01-20 03:36:44,885 INFO:     found 524819/10392813 tags (5.05%)
+2022-01-20 03:36:55,606 INFO: Running analysis for experiment 33
+2022-01-20 03:36:55,656 INFO: Preparing to read CD209-screen-4_S34_L001_R1_001.fastq.gz
+2022-01-20 03:37:04,820 INFO: Finished reading CD209-screen-4_S34_L001_R1_001.fastq.gz
+2022-01-20 03:37:06,758 INFO: Saved reads to CD209-screen-4_S34_L001_R1_001.fastq.gz.reads
+2022-01-20 03:37:07,369 INFO:     777289 unique reads
+2022-01-20 03:37:07,467 INFO:     799822 total reads
+2022-01-20 03:37:07,477 INFO: Validating reads...
+2022-01-20 03:37:48,685 INFO:     652809 unique barcodes (out of 10392813 possible)
+2022-01-20 03:37:48,931 INFO:     761972 total reads
+2022-01-20 03:37:48,932 INFO: Using a minimum read cutoff of 1 for run029_samp000670_part1
+2022-01-20 03:37:48,932 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:37:53,233 INFO: Final total counts: 739383
+2022-01-20 03:37:53,253 INFO: Processing count data for run029_samp000670_part1
+2022-01-20 03:38:01,482 INFO:     found 652809/10392813 tags (6.28%)
+2022-01-20 03:38:12,575 INFO: Running analysis for experiment 34
+2022-01-20 03:38:12,629 INFO: Preparing to read none-screen-5_S35_L001_R1_001.fastq.gz
+2022-01-20 03:38:20,576 INFO: Finished reading none-screen-5_S35_L001_R1_001.fastq.gz
+2022-01-20 03:38:22,134 INFO: Saved reads to none-screen-5_S35_L001_R1_001.fastq.gz.reads
+2022-01-20 03:38:22,668 INFO:     667436 unique reads
+2022-01-20 03:38:22,741 INFO:     687673 total reads
+2022-01-20 03:38:22,751 INFO: Validating reads...
+2022-01-20 03:39:02,975 INFO:     536158 unique barcodes (out of 10392813 possible)
+2022-01-20 03:39:03,176 INFO:     651411 total reads
+2022-01-20 03:39:03,176 INFO: Using a minimum read cutoff of 1 for run029_samp000671_part1
+2022-01-20 03:39:03,176 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:39:06,699 INFO: Final total counts: 631149
+2022-01-20 03:39:06,720 INFO: Processing count data for run029_samp000671_part1
+2022-01-20 03:39:14,778 INFO:     found 536158/10392813 tags (5.16%)
+2022-01-20 03:39:26,821 INFO: Running analysis for experiment 35
+2022-01-20 03:39:26,864 INFO: Preparing to read Fc-screen-5_S36_L001_R1_001.fastq.gz
+2022-01-20 03:39:31,981 INFO: Finished reading Fc-screen-5_S36_L001_R1_001.fastq.gz
+2022-01-20 03:39:33,146 INFO: Saved reads to Fc-screen-5_S36_L001_R1_001.fastq.gz.reads
+2022-01-20 03:39:33,708 INFO:     431523 unique reads
+2022-01-20 03:39:33,768 INFO:     443871 total reads
+2022-01-20 03:39:33,774 INFO: Validating reads...
+2022-01-20 03:39:51,829 INFO:     393177 unique barcodes (out of 10392813 possible)
+2022-01-20 03:39:51,976 INFO:     425814 total reads
+2022-01-20 03:39:51,976 INFO: Using a minimum read cutoff of 1 for run029_samp000672_part1
+2022-01-20 03:39:51,976 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:39:54,449 INFO: Final total counts: 413332
+2022-01-20 03:39:54,466 INFO: Processing count data for run029_samp000672_part1
+2022-01-20 03:40:02,135 INFO:     found 393177/10392813 tags (3.78%)
+2022-01-20 03:40:13,028 INFO: Running analysis for experiment 36
+2022-01-20 03:40:13,074 INFO: Preparing to read Factor-B-screen-5_S37_L001_R1_001.fastq.gz
+2022-01-20 03:40:22,146 INFO: Finished reading Factor-B-screen-5_S37_L001_R1_001.fastq.gz
+2022-01-20 03:40:23,940 INFO: Saved reads to Factor-B-screen-5_S37_L001_R1_001.fastq.gz.reads
+2022-01-20 03:40:24,598 INFO:     779623 unique reads
+2022-01-20 03:40:24,691 INFO:     781597 total reads
+2022-01-20 03:40:24,702 INFO: Validating reads...
+2022-01-20 03:41:01,265 INFO:     687747 unique barcodes (out of 10392813 possible)
+2022-01-20 03:41:01,523 INFO:     747032 total reads
+2022-01-20 03:41:01,524 INFO: Using a minimum read cutoff of 1 for run029_samp000673_part1
+2022-01-20 03:41:01,524 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-01-20 03:41:05,867 INFO: Final total counts: 745337
+2022-01-20 03:41:05,884 INFO: Processing count data for run029_samp000673_part1
+2022-01-20 03:41:14,304 INFO:     found 687747/10392813 tags (6.62%)

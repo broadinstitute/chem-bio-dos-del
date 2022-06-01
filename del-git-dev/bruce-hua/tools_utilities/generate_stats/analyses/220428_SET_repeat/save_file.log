@@ -1,0 +1,211 @@
+2022-05-19 14:33:56,449 INFO: Loaded config file
+2022-05-19 14:33:56,450 INFO: {'project_dir': '../data/220428_SET_repeat', 'datasets': {'0': {'id': 'run033_samp000776', 'fname': ['1_KB24H.1.TAAGGCGA_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [2]}, '1': {'id': 'run033_samp000777', 'fname': ['1_KB24H.1.CGTACTAG_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [5]}, '2': {'id': 'run033_samp000778', 'fname': ['1_KB24H.1.AGGCAGAA_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [2]}, '3': {'id': 'run033_samp000779', 'fname': ['1_KB24H.1.TCCTGAGC_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [5]}, '4': {'id': 'run033_samp000780', 'fname': ['1_KB24H.1.GGACTCCT_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [2]}, '5': {'id': 'run033_samp000781', 'fname': ['1_KB24H.1.TAGGCATG_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [5]}, '6': {'id': 'run033_samp000782', 'fname': ['1_KB24H.1.CTCTCTAC_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [2]}, '7': {'id': 'run033_samp000783', 'fname': ['1_KB24H.1.CAGAGAGG_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [5]}, '8': {'id': 'run033_samp000784', 'fname': ['1_KB24H.1.GCTACGCT_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [2]}, '9': {'id': 'run033_samp000785', 'fname': ['1_KB24H.1.CGAGGCTG_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [5]}, '10': {'id': 'run033_samp000786', 'fname': ['1_KB24H.1.AAGAGGCA_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [2]}, '11': {'id': 'run033_samp000787', 'fname': ['1_KB24H.1.GTAGAGGA_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [5]}}, 'enrichments': {}, 'metadata': {'library': '../lib_meta.csv', 'encoding': '../bb_meta.csv', 'encoding_enumerated': '../lib_enum_struct.csv', 'library_ids': [2, 5]}, 'settings': {'fuzzy': True, 'umi': 'directional', 'minread': 1, 'seq_slices': [[0, 9], [9, 18], [18, 27], [27, 37], [37, 50]], 'read_subs': {}}, 'save_often': 5, 'outfile': 'save_file', 'reprocess_reads': False, 'reprocess_counts': False, 'reprocess_enrichments': True, 'njobs': 4}
+2022-05-19 14:34:59,559 INFO: Loaded library metadata
+2022-05-19 14:34:59,560 INFO:     10 unique libraries
+2022-05-19 14:34:59,560 INFO:     13282919 unique compounds
+2022-05-19 14:35:00,169 INFO: Cut library metadata to only include IDs [2, 5]
+2022-05-19 14:35:00,170 INFO:     2 unique libraries
+2022-05-19 14:35:00,170 INFO:     438000 unique compounds
+2022-05-19 14:35:00,262 INFO: Allowed fuzzy matching dists:?
+2022-05-19 14:35:00,262 INFO:     lib: 1
+2022-05-19 14:35:00,263 INFO:     2: {1: 1, 2: 0, 3: 0}
+2022-05-19 14:35:00,263 INFO:     5: {1: 0, 2: 0, 3: 0}
+2022-05-19 14:35:00,329 INFO: Creating copy of enumerated compound list to store results in
+2022-05-19 14:35:00,329 INFO: Saving to save_file.csv...
+2022-05-19 14:35:05,516 INFO: Saved current results DF as csv at save_file.csv
+2022-05-19 14:35:05,770 INFO: Running analysis for experiment 0
+2022-05-19 14:35:05,812 INFO: Preparing to read 1_KB24H.1.TAAGGCGA_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:35:08,065 INFO: Finished reading 1_KB24H.1.TAAGGCGA_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:35:08,489 INFO: Saved reads to 1_KB24H.1.TAAGGCGA_TATCCTCT.unmapped.1.fastq.gz.reads
+2022-05-19 14:35:08,606 INFO:     118881 unique reads
+2022-05-19 14:35:08,620 INFO:     169295 total reads
+2022-05-19 14:35:08,621 INFO: Validating reads...
+2022-05-19 14:35:09,416 INFO:     43489 unique barcodes (out of 438000 possible)
+2022-05-19 14:35:09,433 INFO:     110996 total reads
+2022-05-19 14:35:09,433 INFO: Using a minimum read cutoff of 1 for run033_samp000776_part1
+2022-05-19 14:35:09,434 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:35:09,831 INFO: Final total counts: 68510
+2022-05-19 14:35:09,832 INFO: Processing count data for run033_samp000776_part1
+2022-05-19 14:35:10,365 INFO:     found 43489/438000 tags (9.93%)
+2022-05-19 14:37:06,960 INFO: Loaded config file
+2022-05-19 14:37:06,960 INFO: {'project_dir': '../data/220428_SET_repeat', 'datasets': {'0': {'id': 'run033_samp000776', 'fname': ['1_KB24H.1.TAAGGCGA_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [2]}, '1': {'id': 'run033_samp000777', 'fname': ['1_KB24H.1.CGTACTAG_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [5]}, '2': {'id': 'run033_samp000778', 'fname': ['1_KB24H.1.AGGCAGAA_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [2]}, '3': {'id': 'run033_samp000779', 'fname': ['1_KB24H.1.TCCTGAGC_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [5]}, '4': {'id': 'run033_samp000780', 'fname': ['1_KB24H.1.GGACTCCT_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [2]}, '5': {'id': 'run033_samp000781', 'fname': ['1_KB24H.1.TAGGCATG_TATCCTCT.unmapped.1.fastq.gz'], 'library_ids': [5]}, '6': {'id': 'run033_samp000782', 'fname': ['1_KB24H.1.CTCTCTAC_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [2]}, '7': {'id': 'run033_samp000783', 'fname': ['1_KB24H.1.CAGAGAGG_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [5]}, '8': {'id': 'run033_samp000784', 'fname': ['1_KB24H.1.GCTACGCT_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [2]}, '9': {'id': 'run033_samp000785', 'fname': ['1_KB24H.1.CGAGGCTG_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [5]}, '10': {'id': 'run033_samp000786', 'fname': ['1_KB24H.1.AAGAGGCA_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [2]}, '11': {'id': 'run033_samp000787', 'fname': ['1_KB24H.1.GTAGAGGA_AGAGTAGA.unmapped.1.fastq.gz'], 'library_ids': [5]}}, 'enrichments': {}, 'metadata': {'library': '../lib_meta.csv', 'encoding': '../bb_meta.csv', 'encoding_enumerated': '../lib_enum_struct.csv', 'library_ids': [2, 5]}, 'settings': {'fuzzy': True, 'umi': 'directional', 'minread': 1, 'seq_slices': [[0, 9], [9, 18], [18, 27], [27, 37], [37, 50]], 'read_subs': {}}, 'save_often': 5, 'outfile': 'save_file', 'reprocess_reads': False, 'reprocess_counts': False, 'reprocess_enrichments': True, 'njobs': 4}
+2022-05-19 14:38:08,410 INFO: Loaded library metadata
+2022-05-19 14:38:08,410 INFO:     10 unique libraries
+2022-05-19 14:38:08,410 INFO:     13282919 unique compounds
+2022-05-19 14:38:09,025 INFO: Cut library metadata to only include IDs [2, 5]
+2022-05-19 14:38:09,026 INFO:     2 unique libraries
+2022-05-19 14:38:09,026 INFO:     438000 unique compounds
+2022-05-19 14:38:09,117 INFO: Allowed fuzzy matching dists:?
+2022-05-19 14:38:09,117 INFO:     lib: 1
+2022-05-19 14:38:09,117 INFO:     2: {1: 1, 2: 0, 3: 0}
+2022-05-19 14:38:09,117 INFO:     5: {1: 0, 2: 0, 3: 0}
+2022-05-19 14:38:10,598 INFO: Index(['lib_id', 'cycle1', 'cycle2', 'cycle3', 'cycle1_seq', 'cycle2_seq',
+       'cycle3_seq', 'cycle1_bb', 'cycle2_bb', 'cycle3_bb', 'structure'],
+      dtype='object')
+2022-05-19 14:38:10,663 INFO: Running analysis for experiment 0
+2022-05-19 14:38:10,680 INFO: Found already-processed read file 1_KB24H.1.TAAGGCGA_TATCCTCT.unmapped.1.fastq.gz.reads
+2022-05-19 14:38:10,695 INFO: Reloading...
+2022-05-19 14:38:10,850 INFO:     118881 unique reads
+2022-05-19 14:38:10,853 INFO:     169295 total reads
+2022-05-19 14:38:10,855 INFO: Validating reads...
+2022-05-19 14:38:11,659 INFO:     43489 unique barcodes (out of 438000 possible)
+2022-05-19 14:38:11,677 INFO:     110996 total reads
+2022-05-19 14:38:11,677 INFO: Using a minimum read cutoff of 1 for run033_samp000776_part1
+2022-05-19 14:38:11,677 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:38:12,073 INFO: Final total counts: 68510
+2022-05-19 14:38:12,074 INFO: Processing count data for run033_samp000776_part1
+2022-05-19 14:38:12,609 INFO:     found 43489/438000 tags (9.93%)
+2022-05-19 14:38:13,017 INFO: Running analysis for experiment 1
+2022-05-19 14:38:13,068 INFO: Preparing to read 1_KB24H.1.CGTACTAG_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:20,591 INFO: Finished reading 1_KB24H.1.CGTACTAG_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:21,861 INFO: Saved reads to 1_KB24H.1.CGTACTAG_TATCCTCT.unmapped.1.fastq.gz.reads
+2022-05-19 14:38:22,198 INFO:     516234 unique reads
+2022-05-19 14:38:22,262 INFO:     578502 total reads
+2022-05-19 14:38:22,269 INFO: Validating reads...
+2022-05-19 14:38:28,026 INFO:     216581 unique barcodes (out of 438000 possible)
+2022-05-19 14:38:28,123 INFO:     526315 total reads
+2022-05-19 14:38:28,123 INFO: Using a minimum read cutoff of 1 for run033_samp000777_part1
+2022-05-19 14:38:28,124 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:38:30,371 INFO: Final total counts: 463102
+2022-05-19 14:38:30,375 INFO: Processing count data for run033_samp000777_part1
+2022-05-19 14:38:31,041 INFO:     found 216581/438000 tags (49.45%)
+2022-05-19 14:38:31,611 INFO: Running analysis for experiment 2
+2022-05-19 14:38:31,665 INFO: Preparing to read 1_KB24H.1.AGGCAGAA_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:32,201 INFO: Finished reading 1_KB24H.1.AGGCAGAA_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:32,456 INFO: Saved reads to 1_KB24H.1.AGGCAGAA_TATCCTCT.unmapped.1.fastq.gz.reads
+2022-05-19 14:38:32,583 INFO:     19682 unique reads
+2022-05-19 14:38:32,584 INFO:     35827 total reads
+2022-05-19 14:38:32,584 INFO: Validating reads...
+2022-05-19 14:38:32,940 INFO:     7895 unique barcodes (out of 438000 possible)
+2022-05-19 14:38:32,944 INFO:     18864 total reads
+2022-05-19 14:38:32,944 INFO: Using a minimum read cutoff of 1 for run033_samp000778_part1
+2022-05-19 14:38:32,944 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:38:33,005 INFO: Final total counts: 8531
+2022-05-19 14:38:33,009 INFO: Processing count data for run033_samp000778_part1
+2022-05-19 14:38:33,516 INFO:     found 7895/438000 tags (1.80%)
+2022-05-19 14:38:33,882 INFO: Running analysis for experiment 3
+2022-05-19 14:38:33,922 INFO: Preparing to read 1_KB24H.1.TCCTGAGC_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:36,713 INFO: Finished reading 1_KB24H.1.TCCTGAGC_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:37,142 INFO: Saved reads to 1_KB24H.1.TCCTGAGC_TATCCTCT.unmapped.1.fastq.gz.reads
+2022-05-19 14:38:37,343 INFO:     136523 unique reads
+2022-05-19 14:38:37,358 INFO:     206690 total reads
+2022-05-19 14:38:37,360 INFO: Validating reads...
+2022-05-19 14:38:39,260 INFO:     84649 unique barcodes (out of 438000 possible)
+2022-05-19 14:38:39,297 INFO:     182223 total reads
+2022-05-19 14:38:39,297 INFO: Using a minimum read cutoff of 1 for run033_samp000779_part1
+2022-05-19 14:38:39,298 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:38:39,987 INFO: Final total counts: 113848
+2022-05-19 14:38:39,989 INFO: Processing count data for run033_samp000779_part1
+2022-05-19 14:38:40,545 INFO:     found 84649/438000 tags (19.33%)
+2022-05-19 14:38:41,093 INFO: Running analysis for experiment 4
+2022-05-19 14:38:41,137 INFO: Preparing to read 1_KB24H.1.GGACTCCT_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:42,776 INFO: Finished reading 1_KB24H.1.GGACTCCT_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:43,010 INFO: Saved reads to 1_KB24H.1.GGACTCCT_TATCCTCT.unmapped.1.fastq.gz.reads
+2022-05-19 14:38:43,128 INFO:     56900 unique reads
+2022-05-19 14:38:43,133 INFO:     113245 total reads
+2022-05-19 14:38:43,134 INFO: Validating reads...
+2022-05-19 14:38:43,965 INFO:     22231 unique barcodes (out of 438000 possible)
+2022-05-19 14:38:43,975 INFO:     65973 total reads
+2022-05-19 14:38:43,975 INFO: Using a minimum read cutoff of 1 for run033_samp000780_part1
+2022-05-19 14:38:43,975 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:38:44,149 INFO: Final total counts: 25759
+2022-05-19 14:38:44,152 INFO: Processing count data for run033_samp000780_part1
+2022-05-19 14:38:44,665 INFO:     found 22231/438000 tags (5.08%)
+2022-05-19 14:38:45,016 INFO: Running analysis for experiment 5
+2022-05-19 14:38:45,058 INFO: Preparing to read 1_KB24H.1.TAGGCATG_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:48,582 INFO: Finished reading 1_KB24H.1.TAGGCATG_TATCCTCT.unmapped.1.fastq.gz
+2022-05-19 14:38:49,293 INFO: Saved reads to 1_KB24H.1.TAGGCATG_TATCCTCT.unmapped.1.fastq.gz.reads
+2022-05-19 14:38:49,650 INFO:     221656 unique reads
+2022-05-19 14:38:49,680 INFO:     275022 total reads
+2022-05-19 14:38:49,683 INFO: Validating reads...
+2022-05-19 14:38:52,541 INFO:     130781 unique barcodes (out of 438000 possible)
+2022-05-19 14:38:52,599 INFO:     250573 total reads
+2022-05-19 14:38:52,599 INFO: Using a minimum read cutoff of 1 for run033_samp000781_part1
+2022-05-19 14:38:52,600 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:38:53,688 INFO: Final total counts: 196740
+2022-05-19 14:38:53,691 INFO: Processing count data for run033_samp000781_part1
+2022-05-19 14:38:54,288 INFO:     found 130781/438000 tags (29.86%)
+2022-05-19 14:38:54,803 INFO: Running analysis for experiment 6
+2022-05-19 14:38:54,845 INFO: Preparing to read 1_KB24H.1.CTCTCTAC_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:39:01,728 INFO: Finished reading 1_KB24H.1.CTCTCTAC_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:39:02,515 INFO: Saved reads to 1_KB24H.1.CTCTCTAC_AGAGTAGA.unmapped.1.fastq.gz.reads
+2022-05-19 14:39:02,829 INFO:     287167 unique reads
+2022-05-19 14:39:02,864 INFO:     517289 total reads
+2022-05-19 14:39:02,868 INFO: Validating reads...
+2022-05-19 14:39:07,030 INFO:     65895 unique barcodes (out of 438000 possible)
+2022-05-19 14:39:07,062 INFO:     339005 total reads
+2022-05-19 14:39:07,063 INFO: Using a minimum read cutoff of 1 for run033_samp000782_part1
+2022-05-19 14:39:07,063 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:39:07,856 INFO: Final total counts: 151100
+2022-05-19 14:39:07,860 INFO: Processing count data for run033_samp000782_part1
+2022-05-19 14:39:08,404 INFO:     found 65895/438000 tags (15.04%)
+2022-05-19 14:39:08,744 INFO: Running analysis for experiment 7
+2022-05-19 14:39:08,881 INFO: Preparing to read 1_KB24H.1.CAGAGAGG_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:39:17,129 INFO: Finished reading 1_KB24H.1.CAGAGAGG_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:39:18,616 INFO: Saved reads to 1_KB24H.1.CAGAGAGG_AGAGTAGA.unmapped.1.fastq.gz.reads
+2022-05-19 14:39:19,068 INFO:     594331 unique reads
+2022-05-19 14:39:19,137 INFO:     649205 total reads
+2022-05-19 14:39:19,145 INFO: Validating reads...
+2022-05-19 14:39:27,076 INFO:     155657 unique barcodes (out of 438000 possible)
+2022-05-19 14:39:27,150 INFO:     591365 total reads
+2022-05-19 14:39:27,150 INFO: Using a minimum read cutoff of 1 for run033_samp000783_part1
+2022-05-19 14:39:27,150 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:39:36,635 INFO: Final total counts: 534026
+2022-05-19 14:39:36,639 INFO: Processing count data for run033_samp000783_part1
+2022-05-19 14:39:37,268 INFO:     found 155657/438000 tags (35.54%)
+2022-05-19 14:39:37,943 INFO: Running analysis for experiment 8
+2022-05-19 14:39:37,985 INFO: Preparing to read 1_KB24H.1.GCTACGCT_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:39:43,890 INFO: Finished reading 1_KB24H.1.GCTACGCT_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:39:44,621 INFO: Saved reads to 1_KB24H.1.GCTACGCT_AGAGTAGA.unmapped.1.fastq.gz.reads
+2022-05-19 14:39:44,988 INFO:     266391 unique reads
+2022-05-19 14:39:45,010 INFO:     451718 total reads
+2022-05-19 14:39:45,013 INFO: Validating reads...
+2022-05-19 14:39:49,715 INFO:     64453 unique barcodes (out of 438000 possible)
+2022-05-19 14:39:49,747 INFO:     295843 total reads
+2022-05-19 14:39:49,747 INFO: Using a minimum read cutoff of 1 for run033_samp000784_part1
+2022-05-19 14:39:49,747 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:39:50,504 INFO: Final total counts: 143990
+2022-05-19 14:39:50,509 INFO: Processing count data for run033_samp000784_part1
+2022-05-19 14:39:51,055 INFO:     found 64453/438000 tags (14.72%)
+2022-05-19 14:39:51,435 INFO: Running analysis for experiment 9
+2022-05-19 14:39:51,476 INFO: Preparing to read 1_KB24H.1.CGAGGCTG_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:40:00,907 INFO: Finished reading 1_KB24H.1.CGAGGCTG_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:40:02,755 INFO: Saved reads to 1_KB24H.1.CGAGGCTG_AGAGTAGA.unmapped.1.fastq.gz.reads
+2022-05-19 14:40:03,655 INFO:     669630 unique reads
+2022-05-19 14:40:03,734 INFO:     733648 total reads
+2022-05-19 14:40:03,743 INFO: Validating reads...
+2022-05-19 14:40:13,223 INFO:     165572 unique barcodes (out of 438000 possible)
+2022-05-19 14:40:13,303 INFO:     668938 total reads
+2022-05-19 14:40:13,304 INFO: Using a minimum read cutoff of 1 for run033_samp000785_part1
+2022-05-19 14:40:13,304 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:40:25,251 INFO: Final total counts: 601492
+2022-05-19 14:40:25,255 INFO: Processing count data for run033_samp000785_part1
+2022-05-19 14:40:25,887 INFO:     found 165572/438000 tags (37.80%)
+2022-05-19 14:40:26,478 INFO: Running analysis for experiment 10
+2022-05-19 14:40:26,522 INFO: Preparing to read 1_KB24H.1.AAGAGGCA_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:40:32,270 INFO: Finished reading 1_KB24H.1.AAGAGGCA_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:40:32,985 INFO: Saved reads to 1_KB24H.1.AAGAGGCA_AGAGTAGA.unmapped.1.fastq.gz.reads
+2022-05-19 14:40:33,351 INFO:     260258 unique reads
+2022-05-19 14:40:33,375 INFO:     432962 total reads
+2022-05-19 14:40:33,379 INFO: Validating reads...
+2022-05-19 14:40:38,656 INFO:     63497 unique barcodes (out of 438000 possible)
+2022-05-19 14:40:38,687 INFO:     281767 total reads
+2022-05-19 14:40:38,688 INFO: Using a minimum read cutoff of 1 for run033_samp000786_part1
+2022-05-19 14:40:38,688 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:40:39,430 INFO: Final total counts: 140946
+2022-05-19 14:40:39,436 INFO: Processing count data for run033_samp000786_part1
+2022-05-19 14:40:39,979 INFO:     found 63497/438000 tags (14.50%)
+2022-05-19 14:40:40,357 INFO: Running analysis for experiment 11
+2022-05-19 14:40:40,400 INFO: Preparing to read 1_KB24H.1.GTAGAGGA_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:40:49,328 INFO: Finished reading 1_KB24H.1.GTAGAGGA_AGAGTAGA.unmapped.1.fastq.gz
+2022-05-19 14:40:50,832 INFO: Saved reads to 1_KB24H.1.GTAGAGGA_AGAGTAGA.unmapped.1.fastq.gz.reads
+2022-05-19 14:40:51,196 INFO:     637088 unique reads
+2022-05-19 14:40:51,274 INFO:     694264 total reads
+2022-05-19 14:40:51,283 INFO: Validating reads...
+2022-05-19 14:41:01,263 INFO:     173795 unique barcodes (out of 438000 possible)
+2022-05-19 14:41:01,350 INFO:     639146 total reads
+2022-05-19 14:41:01,351 INFO: Using a minimum read cutoff of 1 for run033_samp000787_part1
+2022-05-19 14:41:01,351 INFO: Converting valid reads to counts (consolidating UMIs)
+2022-05-19 14:41:10,730 INFO: Final total counts: 579630
+2022-05-19 14:41:10,734 INFO: Processing count data for run033_samp000787_part1
+2022-05-19 14:41:11,371 INFO:     found 173795/438000 tags (39.68%)
