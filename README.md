@@ -8,7 +8,7 @@ Initiated 2021Q4 for code related to the Broad Chemical Biology DNA-encoded libr
 ### /del-git-dev/bruce-hua/shiny
 - config_file.json
 - app.R
-*The two files for deploying the Shiny interface of the DEL analysis web application
+*The two files for deploying the Shiny interface of the DEL analysis web application*
 ### /del-git-dev/bruce-hua/pipe
 ### /del-git-dev/bruce-hua/fun
 ### /del-git-dev/bruce-hua/bash
