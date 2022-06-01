@@ -8,6 +8,7 @@ Initiated 2021Q4 for code related to the Broad Chemical Biology DNA-encoded libr
      *Bruce Hua put together a python script that consolidates it all in one place, the creation of new library metadata. Should just have to specify the dir_name and lib_id variable.*
      
 - /generate_stats/generate_stats_table.R
+- 
      *Bruce Hua put together an R script that generates count generation statistics of samples':*
      
         - total reads,
