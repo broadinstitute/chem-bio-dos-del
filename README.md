@@ -23,7 +23,7 @@ Initiated 2021Q4 for code related to the Broad Chemical Biology DNA-encoded libr
 
 - /generate_stats/analyses
 
-     location of generate_stats_table.R outputs (with some example statistics)
+     *location of generate_stats_table.R outputs (with some example statistics)*
 
 ### /del-git-dev/bruce-hua/shiny
 - config_file.json
@@ -32,7 +32,14 @@ Initiated 2021Q4 for code related to the Broad Chemical Biology DNA-encoded libr
     *The two files for deploying the Shiny interface of the DEL analysis web application*
 ### /del-git-dev/bruce-hua/pipe
 ### /del-git-dev/bruce-hua/fun
-- function.R file that the /shiny/app.R file calls upon
+- function.R 
+
+    *contains functions that the /shiny/app.R file calls upon*
+
+- metadata.R 
+
+    *opens all metadata files for the /shiny/app.R file to read*
+
 ### /del-git-dev/bruce-hua/bash
 ### /del-git-dev/connor-coley
 ### /del-git-dev/sophia-lai
