@@ -3,12 +3,23 @@ library("tidyr")
 library("dplyr")
 
 # generate stats table from logfile ####
-an_folder_name <- "220428_SET_repeat"
-logfile <- "save_file.log"
-outfile <- "220428_SET_repeat.csv"
 
-print(readLines(paste0("./analyses/", "220428_SET_repeat", "/", logfile)))
-temp <- readLines(paste0("./analyses/", "220428_SET_repeat", "/", logfile))
+
+#an_folder_name <- "220428_SET_repeat"
+#logfile <- "save_file.log"
+#outfile <- "220428_SET_repeat.csv"
+
+args = commandArgs(trailingOnly=TRUE)
+logfile <- args[1]
+
+#print(readLines(paste0("./analyses/", "220428_SET_repeat", "/", logfile)))
+#temp <- readLines(paste0("./analyses/", "220428_SET_repeat", "/", logfile))
+temp <- readLines(logfile)
+
+outfileNm <- unlist(strsplit(grep("../data/",unlist(strsplit(grep("../data/", temp, value=TRUE), '\'')), value=TRUE)[1], "../data/"))[2]
+
+outfile <- paste0(dirname(normalizePath(logfile)),'/',outfileNm,".csv")
+
 grep("Preparing to read", temp)
 length(grep("Saved reads to", temp))
 length(grep(" unique reads", temp))
@@ -91,4 +102,4 @@ tibble(sample = smp_lst,
   ungroup() %>%
   pivot_wider(id_cols = 1:2, names_from = value_type, values_from = value) %>%
   select(sample, total_reads, total_unique_reads, valid_reads, valid_barcodes, total_counts) %>%
-  write.csv(paste0("./analyses/", an_folder_name, "/", outfile), row.names = F)
+  write.csv(outfile, row.names = F)
