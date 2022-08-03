@@ -18,7 +18,7 @@ temp <- readLines(logfile)
 
 outfileNm <- unlist(strsplit(grep("../data/",unlist(strsplit(grep("../data/", temp, value=TRUE), '\'')), value=TRUE)[1], "../data/"))[2]
 
-outfile <- paste0(dirname(normalizePath(logfile)),'/',outfileNm,".csv")
+outfile <- paste0(dirname(normalizePath(logfile)),'/',outfileNm,"_stats.csv")
 
 grep("Preparing to read", temp)
 length(grep("Saved reads to", temp))
