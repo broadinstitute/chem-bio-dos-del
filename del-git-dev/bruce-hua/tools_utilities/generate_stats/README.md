@@ -9,9 +9,9 @@
 
 
 --------------------------------------------------------------------------------------------
-**IMPORTANT NOTE**
+**IMPORTANT NOTE:**
 
-The R script mentioned above does not handle HiSeq runs with samples spread across 8 lanes. Therefore, the Python code (generate_stats_table.py) was developed to address that shortcoming. Use it in place of the above R script to generate a stats_table.csv file. Put the Connor Code's log file (save_file.log) into the same directory as the Python code and execute:
+The R script mentioned above does not handle HiSeq runs with samples spread across 8 lanes if the fastq files have not been manually concatenated before running Connor's code. Therefore, this Python code (generate_stats_table.py) was developed to address that shortcoming. Use it in place of the above R script to generate a stats_table.csv file. Put the Connor code's log file (save_file.log) into the same directory as the Python code and execute:
 
 ***Usage:***
 % python generate_stats_table.py
