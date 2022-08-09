@@ -15,6 +15,12 @@ def listToString(stringaslist,delimiter):
     # return string  
     return str 
 
+def make_csv_filename(project_line):
+    substr = project_line.split(',')[1]
+    print('$$$$$', substr[substr.rindex('/')+1:substr.rindex('\'')])
+    csv_filename = substr[substr.rindex('/')+1:substr.rindex('\'')] + '_' + 'stats_table.csv'
+    return csv_filename
+
 def read_Log_File():
     lines = ''
     types = ''
@@ -30,13 +36,13 @@ def read_Log_File():
     total_counts = 0
     stats_df = pd.DataFrame(columns=column_names)
 
-    with open(csv_filename, 'w') as outfile:
-        outfile.write(listToString(column_names,',')[:-1])
-        outfile.write('\n')
+
     with open('save_file.log', 'r') as infile:
         lines = [line.rstrip() for line in infile]
 
     for type in lines:
+        if 'project_dir' in type:
+            csv_filename = make_csv_filename(type)
         if 'Saved reads to' in type:
             is_data_reload = False
         if is_data_reload == False:
@@ -65,7 +71,11 @@ def read_Log_File():
                 sample.add_valid_barcodes(valid_barcodes)
                 sample.add_total_counts(total_counts)
                 sample_dict[sample_name] = sample
-               
+
+    with open(csv_filename, 'w') as outfile:
+        outfile.write(listToString(column_names,',')[:-1])
+        outfile.write('\n')
+
     for key in sample_dict.keys():
         stats_df.loc[0,['sample']] = key
         stats_df.loc[0,['total_reads']] = sample_dict[key].get_total_reads()
