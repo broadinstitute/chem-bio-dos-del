@@ -341,7 +341,7 @@ class Analysis(object):
             logging.info('{}'.format(self.results.columns))
 
     def initialize_results(self):
-        self.results = self.library.df_cpds.copy()
+        self.results = self.library.df_cpds.copy().reset_index(drop=True)
         logging.info('Creating copy of enumerated compound list to store results in')
 
         # # Do library first
