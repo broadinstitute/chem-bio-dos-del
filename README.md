@@ -24,6 +24,10 @@ Initiated 2021Q4 for code related to the Broad Chemical Biology DNA-encoded libr
 - /generate_stats/analyses
 
      *location of generate_stats_table.R outputs (with some example statistics)*
+     
+- populate_lib_enum_structure_008.py
+
+     *python code to generate library 8 related data, to be appended to lib_enum_struct.csv (which is used during count generation)*
 
 ### /del-git-dev/bruce-hua/shiny
 - config_file.json
