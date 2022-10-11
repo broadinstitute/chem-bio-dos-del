@@ -15,3 +15,5 @@ The R script mentioned above does not handle HiSeq runs with samples spread acro
 
 ***Usage:***
 % python generate_stats_table.py
+
+This Python code also can be used for fastq files of any MiSeq runs or HiSeq runs.
