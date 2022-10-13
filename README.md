@@ -21,9 +21,18 @@ Initiated 2021Q4 for code related to the Broad Chemical Biology DNA-encoded libr
 
         - total counts
 
+- /generate_stats/generate_stats_table.py
+
+     *New and improved python version of generate_stats/generate_stats_table.R that generates count generation statistics of samples*
+     
 - /generate_stats/analyses
 
      *location of generate_stats_table.R outputs (with some example statistics)*
+     
+- /lib300_enum_ZYT.py
+
+     *Python code that Zher Yin Tan modified from lib_enumeration_example_20220515_fixed.py to generate library 300 enumeration*     
+
      
 - populate_lib_enum_structure_008.py
 
