@@ -3,7 +3,18 @@ Usage:
 run_generate_enrichments.py count_specs.csv
 Returns:
 CSV file with enrichments from count files specified in count_specs.csv and metadata appended from lib_enum_struct.csv
-you must define self.INPUT_PATH and self.OUTPUT_PATH in __init__ and place lib_enum_struct.csv and count files in self.INPUT_PATH
+
+Notes:
+you must define self.INPUT_PATH and self.OUTPUT_PATH in __init__ and place lib_enum_struct.csv and count files in self.INPUT_PATH in the DEL_generate_enrichments.py file
+
+#########
 
 count_specs.csv example file included
 
+run_make_count_files.py
+Usage:
+run_generate_enrichments.py count_specs_1.csv
+Returns:
+CSV file with counts and metadata as columns
+
+count_specs_1.csv example included
