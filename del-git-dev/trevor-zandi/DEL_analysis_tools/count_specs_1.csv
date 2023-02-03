@@ -1,0 +1,9 @@
+file_name,sample_type,experiment,lib_id
+"run044_samp000962_lib300.csv","LB1","LCK_counts",300
+"run044_samp000963_lib300.csv","LB2","LCK_counts",300
+"run044_samp001010_lib300.csv","LBT1","LCK_counts",300
+"run044_samp001011_lib300.csv","LBT2","LCK_counts",300
+"run044_samp001012_lib300.csv","LBTP10_1","LCK_counts",300
+"run044_samp001013_lib300.csv","LBTP10_2","LCK_counts",300
+"run044_samp001014_lib300.csv","LBTP200_1","LCK_counts",300
+"run044_samp001015_lib300.csv","LBTP200_2","LCK_counts",300
