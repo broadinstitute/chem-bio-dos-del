@@ -1,7 +1,7 @@
 import pandas as pd
 import argparse
 
-from DEL_tools import Enrich
+from DEL_analysis_functions import Enrich
 def main(count_specs):
 	enrich = Enrich()
 	enrich.loadCounts(count_specs)
