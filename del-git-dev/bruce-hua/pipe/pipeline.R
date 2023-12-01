@@ -545,7 +545,7 @@ server <- function(input, output) {
 shinyApp(ui, server)
 
 
-# Mpro - jitter plot (3/19/2021) ####
+# jitter plot (3/19/2021) ####
 meta <- seq_meta %>%
   left_join(seq_smp_meta) %>%
   left_join(smp_meta) %>%
@@ -553,7 +553,7 @@ meta <- seq_meta %>%
 
 # manually generate table of an_expts
 bl_ids <- meta %>%
-  filter(seq_type == "HiSeq" & scrn_id != 3 & !grepl("Mpro|TEAD", tgt_name)) %>%
+  filter(seq_type == "HiSeq" & scrn_id != 3) %>%
   pull(seq_smp_id)
 
 in_tbl <- tibble(tgt_seq_smp_lst = c(list(c(603,604)), list(c(605,606)), list(c(607,608)), list(c(603,604)), list(c(605,606)), list(c(607,608))),
@@ -611,7 +611,7 @@ genetare_jitterplot(
   out_name = "plt001_002"
 )
 
-# Mpro - monosynthon heatmap (3/19/2021) ####
+# monosynthon heatmap (3/19/2021) ####
 meta <- seq_meta %>%
   left_join(seq_smp_meta) %>%
   left_join(smp_meta) %>%
@@ -673,7 +673,7 @@ generate_heatmap_ms(
 
 
 
-# Mpro - first pass analysis (3/22/2021) ####
+# first pass analysis (3/22/2021) ####
 meta <- seq_meta %>%
   left_join(seq_smp_meta) %>%
   left_join(smp_meta) %>%
